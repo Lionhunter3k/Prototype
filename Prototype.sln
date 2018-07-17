@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{38CEFEBF-C94B-4A71-A4A5-43F2C4E5AEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructsWithMethods", "StructsWithMethods\StructsWithMethods.csproj", "{272D6543-8D94-476A-AFFA-1D7BE2CF1420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructsWithDelegateMembers", "StructsWithDelegateMembers\StructsWithDelegateMembers.csproj", "{E590603D-942D-4238-B94D-13E0808E6415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructsAsPOD", "StructsAsPOD\StructsAsPOD.csproj", "{AA87ADDE-3938-4C03-AC46-4AF9B8BD1E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{A555C12C-EDF6-432E-BAF0-082A52CF3460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Containers", "Containers\Containers.csproj", "{C2978F9F-69A5-458E-BED4-6C761F29FB15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38CEFEBF-C94B-4A71-A4A5-43F2C4E5AEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CEFEBF-C94B-4A71-A4A5-43F2C4E5AEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CEFEBF-C94B-4A71-A4A5-43F2C4E5AEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CEFEBF-C94B-4A71-A4A5-43F2C4E5AEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272D6543-8D94-476A-AFFA-1D7BE2CF1420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272D6543-8D94-476A-AFFA-1D7BE2CF1420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272D6543-8D94-476A-AFFA-1D7BE2CF1420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272D6543-8D94-476A-AFFA-1D7BE2CF1420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E590603D-942D-4238-B94D-13E0808E6415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E590603D-942D-4238-B94D-13E0808E6415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E590603D-942D-4238-B94D-13E0808E6415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E590603D-942D-4238-B94D-13E0808E6415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA87ADDE-3938-4C03-AC46-4AF9B8BD1E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA87ADDE-3938-4C03-AC46-4AF9B8BD1E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA87ADDE-3938-4C03-AC46-4AF9B8BD1E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA87ADDE-3938-4C03-AC46-4AF9B8BD1E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A555C12C-EDF6-432E-BAF0-082A52CF3460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A555C12C-EDF6-432E-BAF0-082A52CF3460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A555C12C-EDF6-432E-BAF0-082A52CF3460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A555C12C-EDF6-432E-BAF0-082A52CF3460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2978F9F-69A5-458E-BED4-6C761F29FB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2978F9F-69A5-458E-BED4-6C761F29FB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2978F9F-69A5-458E-BED4-6C761F29FB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2978F9F-69A5-458E-BED4-6C761F29FB15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C7E4908-F9AF-491A-B970-16FE8DB1C3BD}
+	EndGlobalSection
+EndGlobal
