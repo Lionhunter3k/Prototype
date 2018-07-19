@@ -6,8 +6,36 @@ using System.Threading.Tasks;
 
 class Program
 {
+    //public static void SafeMultiplyHealth(RefNullable<Character> refNullable, int multiplier)
+    //{
+    //    if (refNullable.HasValue)
+    //        refNullable.Value.Health = refNullable.Value.Health * multiplier;
+    //}
+
+    //public static void UnsafeMultiplyHealth(RefNullable<Character> refNullable, int multiplier)
+    //{
+    //    refNullable.Value.Health = refNullable.Value.Health * multiplier;
+    //}
+
+    public static void SafeMultiplyHealth(RefNullable<Monster> refNullable, int multiplier)
+    {
+        if (refNullable.HasValue)
+            refNullable.Value.Health = refNullable.Value.Health * multiplier;
+    }
+
+    public static void UnsafeMultiplyHealth(RefNullable<Monster> refNullable, int multiplier)
+    {
+        refNullable.Value.Health = refNullable.Value.Health * multiplier;
+    }
+
     static void Main(string[] args)
     {
+        //List<RefNullable<Monster>> nullableMonsters = new List<RefNullable<Monster>>();
+        //SafeMultiplyHealth(nullableMonsters[2], 10);
+
+        //List<RefNullable<Character>> nullableCharacters = new List<RefNullable<Character>>();
+        //SafeMultiplyHealth(nullableCharacters[2], 10);
+
         //PREPARE PLAYERS
         List<Character> characters = new List<Character>();
         characters.Add(new Character(100, 20, 20, 1));
@@ -15,7 +43,7 @@ class Program
         //PREPARE MONSTERS
         List<Monster> monsters = new List<Monster>();
 
-        for(int i = 0; i < GetNumberOfMonsters(); i++)
+        for (int i = 0; i < GetNumberOfMonsters(); i++)
         {
             monsters.Add(new Monster(1, 1, 1, 1, 1));
         }
