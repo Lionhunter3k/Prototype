@@ -1,4 +1,6 @@
-public class RequestParameterCollection
+using System;
+
+public abstract class RequestParameterCollection
 {
     public abstract bool ContainsKey(string key);
 
