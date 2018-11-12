@@ -1,0 +1,38 @@
+using System;
+
+public class RequestParameterCollection
+{
+    private string[] parameters;
+
+    public RequestParameterCollection(string parameterPart)
+    {
+        this.parameters = parameterPart.Split('&');
+    }
+
+    public bool ContainsKey(string key)
+    {
+        foreach (string keyValueParameter in parameters)
+        {
+            if (keyValueParameter.Trim().StartsWith(key))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public string GetValue(string key)
+    {
+         foreach (string keyValueParameter in parameters)
+        {
+            if (keyValueParameter.Trim().StartsWith(key))
+            {
+                int startIndex = keyValueParameter.IndexOf('=');
+                string rawValue = keyValueParameter.Substring(startIndex + 1);
+
+                return rawValue;
+            }
+        }
+        throw new Exception("Key not found");
+    }
+}

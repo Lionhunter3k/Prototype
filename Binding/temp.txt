@@ -1,0 +1,21 @@
+
+ string[] parameters = parameterPart.Split('&');
+ ...................
+foreach (string keyValueParameter in parameters)
+                {
+                    if (keyValueParameter.Trim().StartsWith("playerId"))
+                    {
+                        int startIndex = keyValueParameter.IndexOf('=');
+                        string rawValue = keyValueParameter.Substring(startIndex + 1);
+
+                        playerId = int.Parse(rawValue);
+                        continue;
+                    }
+                    if (keyValueParameter.Trim().StartsWith("monsterId"))
+                    {
+                        int startIndex = keyValueParameter.IndexOf('=');
+                        string rawValue = keyValueParameter.Substring(startIndex + 1);
+                        monsterId = int.Parse(rawValue);
+                        continue;
+                    }
+                }
